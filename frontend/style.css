@@ -1,0 +1,483 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  width: 1430px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 30px;
+}
+
+.navbar ul li a {
+  font-family: "Acme", sans-serif;
+  font-weight: regular bold;
+  font-size: 30px;
+  color: #5b5959dd;
+  text-decoration: none;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  font-family: "Acme", sans-serif;
+  font-weight: regular bold;
+  font-size: 30px;
+  color: #5D1496;
+  stroke: #CE8FFF;
+  text-decoration: none;
+  text-shadow: 0 0 10px #CE8FFF, 0 0 20px #CE8FFF, 0 0 30px #CE8FFF;
+}
+
+.logo {
+  font-size: 55px;
+  font-family: "Bigshot One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5D1496;
+}
+
+.bg {
+  background-color: #F5E6FF;
+  border-radius: 0 0 300px 0;
+  width: 100%;
+  height: 520px;
+  position: relative;
+}
+
+.hero-img img {
+  position: absolute;
+  border-radius: 0 0 300px 0;
+  right: 0;
+  margin-top: 150px;
+}
+
+.hero-section .hero-text p {
+  text-align: left;
+  font-size: 24px;
+  height: calc(100vh-142.4);
+  padding-top: 52px;
+  padding-left: 130px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #8447b2d7;
+  line-height: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sbold {
+  font-size: 32px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #5D1496;
+
+}
+
+.sbold2 {
+  font-size: 28px;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #581c86;
+  line-height: 65px;
+}
+
+.dwnld-text h1 {
+  color: #1410B3;
+  font-size: 27px;
+  padding-top: 10px;
+  padding-left: 63px;
+  text-shadow: 3px 3.5px 2.5px #c5c0c0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.arrow-img {
+  position: absolute;
+  right: 56%;
+  margin-top: 385px;
+}
+
+.btn {
+  position: absolute;
+  color: white;
+  right: 63%;
+  bottom: 2%;
+  border-color: #7830B0;
+  border-radius: 50px;
+  margin-top: 380px;
+  background-color: #7830B0;
+  height: 43px;
+  width: 118px;
+  font-size: 23px;
+  font-family: "Bigshot One", serif;
+  box-shadow: 3.5px 5.5px 5px 0px rgb(105, 100, 100);
+}
+
+.btn:hover {
+  cursor: pointer;
+  
+}
+
+/* /------------previous----------------/ */
+.pre {
+  position: absolute;
+  left: 550px;
+  top: 570px;
+  font-size: 43px;
+  font-weight: 90px;
+  color: #631b9b;
+  font-family: "Bigshot One", serif;
+}
+
+.pr1 {
+  position: absolute;
+  left: 600px;
+  top: 670px;
+  font-size: 25px;
+  word-spacing: 8px;
+  font-family: "Bigshot One", serif;
+  color: rgba(98, 95, 95, 0.881);
+}
+
+.pr2 {
+  position: absolute;
+  left: 85px;
+  top: 1100px;
+  font-size: 25px;
+  word-spacing: 8px;
+  font-family: "Bigshot One", serif;
+  color: rgba(98, 95, 95, 0.881);
+}
+
+.pr3 {
+  position: absolute;
+  left: 600px;
+  top: 1500px;
+  font-size: 25px;
+  word-spacing: 8px;
+  font-family: "Bigshot One", serif;
+  color: rgba(98, 95, 95, 0.881);
+}
+
+.MBD-1 {
+  position: absolute;
+  left: 8%;
+  top: 630px;
+  size: initial;
+}
+
+.MBD-2 {
+  position: absolute;
+  left: 69%;
+  top: 1000px;
+
+}
+
+.MBD-3 {
+  position: absolute;
+  left: 6%;
+  top: 1360px;
+  size: initial;
+}
+
+.tab {
+  position: relative;
+  left: 16%;
+  top: 1750px;
+  width: 1050px;
+}
+
+
+/* /------------footer----------------/ */
+.ftr {
+  bottom: 0;
+  position: relative;
+  top: 1750px;
+  background-color: #F5E6FF;
+  font-size: 36px;
+  padding: 4px;
+  text-align: center;
+  font-family: "Cabin Condensed", sans-serif;
+}
+
+#box {
+  position: absolute;
+  top: 1750px;
+  left: 17.8%;
+  background-color: #DAC7EA;
+  height: 450px;
+  width: 1000px;
+  border-radius: 40px;
+  border: 3px 2px black solid;
+  font-size: 25px;
+  opacity: 70%;
+}
+
+#p {
+  top: 30px;
+  color: white;
+  position: absolute;
+  left: 315px;
+  font-size: 57px;
+  font-family: "Bigshot One", serif;
+  font-style: normal;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 10px gray;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+}
+
+.open-popup {
+
+  display: inline-block;
+}
+
+.popup {
+
+  display: none;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 1540px;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.popup:target {
+
+  display: flex;
+
+}
+
+.popup-content {
+
+  position: absolute;
+
+  height: 500px;
+
+  width: 1100px;
+
+  background-color: #efe2f8;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  position: relative;
+
+  border: 3px solid #7830B0;
+
+  border-radius: 35px;
+
+  overflow-y: scroll;
+}
+
+.popup-content::-webkit-scrollbar {
+  display: none;
+}
+
+.close-popup {
+
+  top: 1px;
+
+  right: 5px;
+
+  font-size: 30px;
+
+  text-decoration: none;
+
+  color: black;
+
+  float: right;
+
+  position: sticky;
+}
+
+#pre2 {
+  font-family: "Bigshot One", serif;
+  font-style: normal;
+  color: #5D1496;
+  font-size: 35px;
+  font-weight: 400px;
+}
+
+.head2 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  padding-top: 25px;
+  color: #5D1496;
+  font-size: 35px;
+  text-align: center;
+}
+
+.mid2 {
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: purple;
+  font-size: 31px;
+  text-align: left;
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wcu {
+  color: rgb(129, 8, 129);
+  font-weight: bold;
+}
+
+.tab2 {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.last2 {
+  color: #6e1dac;
+  font-family: "Oleo Script";
+  margin-top: 45px;
+}
+
+
+.box1
+{
+  height: 80px;
+  position: absolute;
+  justify-content: center;
+  top: 1920px;
+  left: 320px;
+}
+#department
+{
+  margin-right: 110px;
+  padding: 30px 50px 30px 25px;
+  border-radius: 30px;
+  background-color: white ;
+  cursor: pointer;
+  font-size: 25px;
+}
+#semester
+{
+  margin-right: 108px;
+  padding: 30px 50px 30px 25px;
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+#year
+{
+  padding: 30px 50px 30px 25px;
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+.download-btn
+{
+  height: 50px;
+  position: absolute;
+  justify-content: center;
+  top: 2110px;
+  left: 663px;
+  padding: 10px 20px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  background-color: #7830B0;
+  color: white;
+  /* font-size: large; */
+  border: none;
+  font-size: 23px;
+  font-family: "Bigshot One", serif;
+  box-shadow: 3.5px 5.5px 5px 0px rgb(105, 100, 100);
+  border-color: #7830B0;
+  border-radius: 50px;
+}
+
+.download-btn:hover{
+  background-color: #CE8FFF;
+
+  color: white;
+}
+
+
+.styled-dropdown {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add a custom arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="%237830B0" d="M7 10l5 5 5-5z"/></svg>'); 
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 30px;
+  padding-right: 30px; /* Space for the arrow */
+  transition: all 0.3s ease-in-out;
+}
+/* Change dropdown background when hovering */
+.styled-dropdown:hover {
+  background-color: #f5e6ff;
+  border-color: #5D1496;
+}
+
+/* Dropdown focus effect */
+.styled-dropdown:focus {
+  outline: none;
+  border-color: #CE8FFF;
+  box-shadow: 0 0 8px rgba(120, 48, 176, 0.5);
+}
+
+/* Style dropdown options */
+.styled-dropdown option {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+/* ✅ Fix: Change hover background color using optgroup */
+.styled-dropdown optgroup {
+  background-color: #E5D1F2; /* Light purple */
+  color: black;
+  font-weight: bold;
+}

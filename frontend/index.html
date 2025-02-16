@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaperBridge</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="../backend/script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Armata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <div class="bg">
+      <div class="hero-img">
+        <img src="/images/Hero-sec (2).svg" alt="Hero-sec">
+      </div>
+      <div class="arrow-img">
+        <img src="/images/Arrow.svg" alt="arrow-img">
+      </div>
+      <a href="#box"> <button class="btn"> PAPERS</button></a>
+      <div class="hero-section">
+        <!-- ----------navbar start--------- -->
+        <nav>
+          <div class="navbar">
+            <div class="logo">
+              <h1>PaperBridge.</h1>
+            </div>
+            <ul>
+              <li>
+                <a href="#popup" class="open-popup">About Us</a>
+              </li>
+
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!------------------------------------------------>
+        <div class="hero-text">
+          <p> Access a wide range of previous year <span class="sbold">QUESTION PAPERS</span></strong><br>
+            for exams and tests. Streamline your study preparation<br>
+            with downloadable resources tailored<br>
+            to your needs. Excel in your<br>
+            <span class="sbold2">STUDIES EFFORTLESSLY!</span>
+          </p>
+        </div>
+        <div class="dwnld-text">
+          <h1><b>
+              <p class='thick'> Excel with Past Papers – Download Now!</h1>
+          </p></b>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-----------previous-------------->
+      <div class="pre">
+        WHY PREVIOUS PAPERS?
+      </div>
+      <div class="pr1">
+        <p>
+          Solving previous year question papers can significantly improve your <br>
+          exam performance. Firstly, it familiarizes you with the exam pattern <br>and
+          question types, reducing surprises on the actual exam day. <br>Secondly, it helps
+          you identify important topics, allowing you to <br>prioritize your study areas
+          effectively. Lastly, it improves your time management skills,enabling you to
+          complete the exam within the <br>allotted time while enhancing your speed and accuracy.
+        </p>
+      </div>
+      <div class="MBD-1 img">
+        <img src="/images/MBD-1.svg" alt="MBD-1">
+      </div>
+      <div class="pr2">
+        <p>Additionally, practicing with past papers serves as an excellent <br>self-assessment
+          tool. It lets you gauge your preparation level,<br> bridentify strengths and weaknesses,
+          and adjust your study <br>plan accordingly. This self-assessment is crucial for effective <br>
+          revision and helps reduce exam anxiety by building confidence <br> and familiarity with
+          the exam format.
+        </p>
+      </div>
+      <div class="MBD-2 img">
+        <img src="/images/MBD-2.svg" alt="MBD-2">
+      </div>
+      <div class="pr3">
+        <p>
+          Finally, solving previous year question papers enhances your answer<br> writing skills.
+          It teaches you to present concise and relevant answers<br> while improving problem-solving
+          skills under real exam conditions.<br> By consistently practicing with these papers, you
+          can track your<br> progress, monitor improvement, and boost your overall exam readiness.
+        </p>
+      </div>
+      <div class="MBD-3 img">
+        <img src="/images/MBD-3.svg" alt="MBD-3">
+      </div>
+      <div class="tab img">
+        <img src="/images/tabfinal.png" alt="tablee" width="1050">
+      </div>
+      <div id="box">
+        <p id="p">Question Bank</p>
+      </div>
+      <div class="box1">
+        <select id="department" class="styled-dropdown">
+            <option value="">Department</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BA(JMC)">BA(JMC)</option>
+        </select>
+
+        <select id="semester" class="styled-dropdown">
+            <option value="">Select Semester</option>
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+            <option value="5">5th Semester</option>
+            <option value="6">6th Semester</option>
+        </select>
+
+        <select id="year" class="styled-dropdown">
+            <option value="">Select Year</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+        </select>
+    </div>
+
+    <button class="download-btn" onclick="downloadPaper()">Download Paper</button>
+
+    <div class="result" id="result"></div>
+
+      <footer>
+        <div class="ftr">
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear())</script> www.PaperBridge.com
+        </div>
+      </footer>
+      <a href="#popup" class="open-popup">..</a>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <a href="#" class="close-popup">×</a>
+          <div class="head2">
+            About Us
+          </div>
+          <div class="mid2">
+
+            Welcome to <span id="pre2"> PrepPro. </span>, your ultimate resource for academic success! We understand the
+            importance
+            of thorough preparation
+
+            in achieving your educational goals. That's why we are dedicated to providing students with access to
+            previous <span id="pre2">4 year's</span>
+
+            question papers in PDF format, available for download at your convenience.
+          </div>
+
+          <div class="head2"> Our Mission</div>
+
+          <div class="mid2">
+
+            Our mission is to empower students with the tools they need to excel in their studies. We believe that
+            practicing with
+
+            past exam papers is one of the most effective ways to understand exam patterns, manage time efficiently, and
+            identify
+
+            key topics. Our extensive collection of question papers spans various subjects and academic levels, ensuring
+            that you
+
+            are well-prepared for any challenge.
+          </div>
+
+          <div class="head2">What We Offer</div>
+
+          <div class="mid2">
+
+            <span id="wcu">- Comprehensive Collection:</span> Access question papers from the <span class="tab2">past 4
+              years, meticulously
+              organized by
+              subject and year.</span> <br>
+
+            <span id="wcu">- Ease of Access:</span> Download papers in PDF format for offline <span class="tab2">study
+              and practice.</span>
+            <br>
+
+            <span id="wcu">- Quality Resources:</span> Ensure your preparation is aligned with <span class="tab2">actual
+              exam standards and
+              patterns.</span> <br>
+
+            <span id="wcu">- User-Friendly Interface:</span> Easily navigate our website to find <br><span class="tab2">
+              the papers you need
+              quickly and efficiently.</span>
+          </div>
+
+          <div class="head2">Why Choose Us?</div>
+
+          <div class="mid2">
+
+            <span id="wcu">- Expertly Curated Content:</span> Our team carefully selects and <span class="tab2">verifies
+              each question paper
+              to provide you with
+              reliable study materials.</span> <br>
+
+            <span id="wcu">- Focused Preparation:</span> Familiarize yourself with the types of <span
+              class="tab2">questions asked in exams
+              and improve your
+              problem-solving skills.</span> <br>
+
+            <span id="wcu">- Enhanced Performance:</span> Regular practice with our resources <span class="tab2">can
+              help reduce exam anxiety
+              and boost
+              your confidence.</span> <br>
+          </div>
+
+          <div class="head2">Join Our Community</div>
+
+          <div class="mid2">
+
+            Become a part of our growing community of students who are taking their preparation to the next level. At
+            <span id="pre2">PaperBridge.</span>,
+            we specialize in providing previous year's question papers specifically for <span id="pre2">BBA, BCA, and BJMC</span> courses of
+            Sambalpur University.
+            Whether you are preparing for semester exams, assignments, or competitive assessments within these courses,
+            we are here to support
+            you every step of the way.<br>
+
+            <div class="last2">Start your journey towards academic excellence today by exploring our vast repository of
+              previous years' question papers.
+              Download, practice, and succeed with PrepPro.!</div>
+          </div>
+        </div>
+
+</body>
+
+</html>
